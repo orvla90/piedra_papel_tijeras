@@ -1,0 +1,45 @@
+html, table {
+	font-family: 'Baloo Thambi 2', cursive;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: DarkSlateBlue;
+
+}
+.header {
+	background-color: black;
+	color: #fff;
+	margin: 0 0;
+	width: 100%;
+	padding: 5px 0;
+}
+img {
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.imagenes {
+	display: flex;
+	justify-content: space-around;
+}
+.resultado {
+	margin-top: 20px;
+}
+table {
+	background-color: Gainsboro;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 5px;
+	font-size: 20px;
+}
+thead {
+	font-weight: bold;
+}
+td {
+	margin: 5px;
+	padding: 5px;
+	border: 0.5px solid honeydew;
+	border-radius: 5px;
+}

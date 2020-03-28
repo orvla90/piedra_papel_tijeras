@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Piedra, Papel o Tijera</title>
+	<link rel="stylesheet" type="text/css" href="source/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<div class="header">
+		<h1>
+			Piedra, Papel o Tijeras
+		</h1>
+	</div>
+	<div class="descripcion">
+		<h2>Elije entre piedra, papel o tijeras, el ordenador elige otro.</h2>
+		<h2>A ver cuantas veces puedes ganar</h2>
+		<h1>¡Suerte!</h1>
+	</div>
+	<div class="imagenes">
+		<img id="piedra" src="source/img/piedra.png" alt="piedra">
+		<img id="papel" src="source/img/papel.png" alt="papel">
+		<img id="tijeras" src="source/img/tijeras.png" alt="tijeras">
+	</div>
+	<div class="ordenador">
+		<h1 class="ordenador_titulo">El ordenador elige:</h1>
+		<img id="interrogacion" src="source/img/interrogacion.png" alt="interrogacion">
+	</div>
+	<div>
+		<h1 id="resultado"></h1>
+	</div>
+	<div class="contador">
+		<table>
+			<thead>
+				<tr id="cabecera_tabla">
+					<td>Puntuación actual</td>
+					<td>Mejor puntuación</td>
+				</tr>
+				<tbody>
+					<tr id="puntuaciones">
+						<td id="puntuacion_actual">0</td>
+						<td id="puntuacion_mas_alta">0</td>
+					</tr>
+				</tbody>
+			</thead>
+		</table>
+	</div>
+	<script type="text/javascript" src="source/scripts/script.js"></script>
+</body>
+</html>
